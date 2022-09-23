@@ -1,0 +1,93 @@
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    /* Barre de recherche*/
+
+    .recherche form{
+        justify-content: center;
+        width: 100%;
+    } 
+
+   .recherche{
+        text-align: center
+    }
+
+    /* Hébergements */
+
+    #hebergements{
+        flex-direction: column;
+    }
+
+    .hebergement_marseille{
+        width: 100%;
+    }
+
+    .populaire{
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .card_popular_img img{
+        height: 180px;
+    }
+
+    /* Activités */
+
+    
+   #activites{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1600px;
+    padding: 3%;
+   }
+
+   #lieux{
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+
+   #lieux > *{
+    width: 100%;
+   }
+
+   #lieux > a{
+    height: 16%;
+    margin-bottom: 20px;
+   }
+
+   #lieux > a > .card_activite > .photo{
+    height: 90%;
+   }
+
+   #lieux > div{
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+
+   #lieux > div a{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 16px #d9d9d9;
+    overflow: hidden;
+   }
+
+#fort_iles a:nth-child(1){
+    height: 50%;
+}
+
+#fort_iles a:nth-child(2){
+    height: 50%;
+}
+
+#dame_parc a:nth-child(1){
+    height: 50%;
+}
+}
